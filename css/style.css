@@ -1,0 +1,166 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing:border-box;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	align-items: center;
+}
+h1,h2,h3,h4,h5,h6,p,ul{
+	margin: 0px;
+	padding: 0px;
+}
+img{
+	border: none;
+}
+a{
+	text-decoration: none;
+}
+.container{
+	width:100%;
+	max-width: 1170px;
+	margin: 0 auto;
+}
+.FIRST
+{
+	background-image: url("../images/bg.jpg");
+   position:relative;  /*agr kisi b text ya image ho sbse phle usko uski positions se thik karna h the best way*/
+  width:100%;
+  min-height:800px;
+ /*min height isliye zaruri h kyunki ye div mtlb box h and without height and width it cannot run jaise box m color add karna pdta h to run*/
+ background-size: cover;
+ background-position: center;
+ background-repeat: no-repeat;
+/*filter:blur(1px);*/
+
+}
+.HEADER{
+	
+	display:flex;
+
+
+}
+.box1
+{
+	position:relative;
+	width:400px;
+	height: 40px;
+	background-color: #ffcd3c;
+	top:100px;
+	right:5px;
+}
+h4{
+	position: relative;
+	text-align: center;
+	top:10px;
+}
+.box2
+{  position:relative;
+	width:400px;
+	height: 40px;
+	background-color: #ffcd3c;
+	top:100px;
+	left:9px;
+}
+
+.box3
+{
+	position:relative;
+	width:400px;
+	height: 40px;
+	background-color: #ffcd3c;
+	top:100px;
+	left:20px;
+
+}
+.box4
+{
+	position:relative;
+	width:400px;
+	height: 40px;
+	background-color: #ffcd3c;
+	top:100px;
+	left :32px;
+}
+.box5
+{
+	position:relative;
+	width:400px;
+	height: 40px;
+	background-color: #ffcd3c;
+	top:100px;
+	left:42px;
+}
+.left{
+	position: relative;
+	top:130px;
+	left:170px;
+  display:inline-block;
+}
+.right{
+	display:inline-block;
+}
+.boxr1{
+	position: absolute;
+	width:450px;
+	height:175px;
+   background-color: #ffcd3c;
+	left:900px;
+	top:170px;
+
+}
+.boxr2{
+	position: absolute;
+	width:450px;
+	height:190px;
+    background-color: #ffcd3c;
+    left:900px;
+    top:375px;
+}
+.text1{
+	padding:65px 190px;
+	font-size: 20px;
+}
+.text2{
+	padding:65px 190px;
+	font-size: 20px;
+}
+.Third{
+	position: relative;
+	display: flex;
+	
+}
+.boxt1{
+	position: relative;
+	width:250px;
+	height:200px;
+	background-color: #ffcd3c;
+	top:150px;
+	left:175px;
+}
+.boxt2{
+	position: relative;
+	width:250px;
+	height:200px;
+	background-color: #ffcd3c;
+	top:150px;
+	left:230px;
+}
+.boxt3{
+	position: relative;
+	width:250px;
+	height:200px;
+	background-color: #ffcd3c;
+	top:150px;
+	left:290px;
+}
+.boxt4{
+    position: relative;
+	width:250px;
+	height:200px;
+	background-color: #ffcd3c;
+	top:150px;
+	left:350px;
+}
